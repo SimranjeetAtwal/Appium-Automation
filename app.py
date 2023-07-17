@@ -27,9 +27,6 @@ profile_urls = [
     #'profile_link3'
 ]
 
-# Configure the message you want to send
-message = 'Hello, I would like to connect with you.'
-
 # Initialize the Appium WebDriver
 driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 
